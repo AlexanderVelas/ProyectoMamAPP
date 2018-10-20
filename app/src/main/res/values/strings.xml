@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MamAPP</string>
+    <string name="tituloAplicacion">MAM</string>
+    <string name="Colores">Modulo Colores</string>
+    <string name="Numeros">Modulo Numeros</string>
+    <string name="Acercade">Modulo En Proceso</string>
+</resources>

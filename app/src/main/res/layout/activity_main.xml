@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/louncher1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/numeracion"
+        android:text="@string/Numeros"
+        android:textColorLink="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:baselineAligned="false"
+        android:drawableTop="@drawable/colores"
+        android:text="@string/Colores"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:allowUndo="false"
+        android:background="@android:color/transparent"
+        android:drawableTop="?android:attr/alertDialogIcon"
+        android:text="@string/Acercade" />
+
+</LinearLayout>
